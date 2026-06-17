@@ -55,13 +55,16 @@ Projeyi yerel ortamınızda doğrulamak ve çalıştırmak için aşağıdaki ad
 
 1. Depoyu klonlayın:
 ```bash
-git clone [https://github.com/KULLANICI_ADIN/cvae-synthetic-burn-lesion.git](https://github.com/KULLANICI_ADIN/cvae-synthetic-burn-lesion.git)
+git clone [https://github.com/berkburhancesur/cvae-synthetic-burn-lesion.git](https://github.com/berkburhancesur/cvae-synthetic-burn-lesion.git)
 cd cvae-synthetic-burn-lesion
-Gerekli kütüphaneleri yükleyin:
+```
 
-Bash
+2. Gerekli kütüphaneleri yükleyin:
+```bash
 pip install -r requirements.txt
-Modeli Jupyter Notebook arayüzü veya terminal üzerinden tetikleyin:
+```
 
-Bash
+3. Modeli Jupyter Notebook arayüzü üzerinden tetikleyin:
+```bash
 jupyter notebook "sentetik-yanik-yaralanma-verileri-VGG.ipynb"
+```
